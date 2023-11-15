@@ -15,7 +15,7 @@ const Home = () => {
         navigate("/login")
       }
       const { data } = await axios.post(
-        "http://localhost:4300",
+        "https://authenticate-user-server-side.onrender.com",
         {},
         { withCredentials: true }
       )
